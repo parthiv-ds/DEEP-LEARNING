@@ -1,0 +1,14 @@
+tensorflow
+keras
+pandas 
+numpy
+matplotlib
+seaborn
+scikit-learn
+python-box
+pyYAML
+joblib
+types-PyYAML
+scipy
+gdown
+-e .

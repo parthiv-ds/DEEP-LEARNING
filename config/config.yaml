@@ -1,0 +1,16 @@
+artifacts_root: artifacts3
+
+
+data_ingestion:
+  root_dir: artifacts3/data_ingestion
+  source_URL: https://drive.google.com/file/d/1Rsp8ItgOOYWuoJgyK1jRejcRh2F_Ooaw/view?usp=drive_link
+  local_data_file: artifacts3/data_ingestion/data.zip
+  unzip_dir: artifacts3/data_ingestion
+
+prepare_base_model:
+  root_dir: artifacts3/prepare_base_model
+  model_path: artifacts3/prepare_base_model/model.h5
+
+training:
+  root_dir: artifacts3/training
+  trained_model_path: artifacts3/training/model_last.h5
